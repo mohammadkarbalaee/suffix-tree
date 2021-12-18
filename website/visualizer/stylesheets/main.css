@@ -51,7 +51,7 @@ svg {
 #Div2{
     width: 30%;
     position: absolute;
-    background-color: #89c54c;
+    background-color: #0081dd;
     top: 630px;
     margin-left: 45%;
     margin-right: 25%;
@@ -79,12 +79,12 @@ svg {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #67b41d;
+    background: #0081dd;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #b90034;
+    background: #4f4f4f;
 }
 
 #chart-2{
@@ -112,4 +112,27 @@ svg {
     margin-left: 35%;
     border-radius: 100px;
     margin-right: 35%;
+}
+
+#main-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about-column{
+    display: flex;
+    margin-top: 500px;
+    margin-left: 25px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+#about-text{
+    margin-top: 50px;
+    font-size: 18px;
+    width: 300px;
 }

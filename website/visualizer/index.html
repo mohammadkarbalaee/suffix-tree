@@ -9,15 +9,39 @@
     <script type="text/javascript" src="javascripts/suffixtree.js"></script>
   </head>
   <body>
-    <div id='Div1'>
-        <div class='chart' id='chart-2'>
+    <div id="main-row">
+        <div id="about-column">
+            <img  alt="SBU logo" src="images/sbu.logo.jfif" width="100" height="100"/>
+            <p id="about-text">
+                Builder and visualizer
+                for <span style="color:#0081dd;">Suffix Tree</span> data structure
+                developed as the final project of data structures and algorithms course
+                at <span style="color:#0081dd;">Shahid Beheshti University</span> on fall 2021
+            </p>
+            <p>
+                contributors:
+            </p>
+            <ul style="margin-top: -10px">
+                <li>
+                    Zahra Eftekhari
+                </li>
+                <li>
+                    Muhammad Karbalaee
+                </li>
+            </ul>
         </div>
-    </div>
-    <div id='Div2'>
-        <label for="Text1"></label>
-        <input id="Text1" type="text" placeholder="your string ending in termination character(e.g. $)" maxlength="500" xml:lang="en-us" />
-        <button id="build-tree" onclick="createSuffixTree()">Build Suffix Tree</button>
-        <br/>
+        <div>
+            <div id='Div1'>
+                <div class='chart' id='chart-2'>
+                </div>
+            </div>
+            <div id='Div2'>
+                <label for="Text1"></label>
+                <input id="Text1" type="text" placeholder="your string ending in termination character(e.g. $)" maxlength="500" xml:lang="en-us" />
+                <button id="build-tree" onclick="createSuffixTree()">Build Suffix Tree</button>
+                <br/>
+            </div>
+        </div>
     </div>
   </body>
     <script type="text/javascript" src="javascripts/main.js"></script>
