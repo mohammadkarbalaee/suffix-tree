@@ -9,16 +9,14 @@
     <script type="text/javascript" src="javascripts/suffixtree.js"></script>
   </head>
   <body>
-    <div id='Div1' style="padding: 10px; width: 980px; height: 520px; position: absolute; background-color: #C0C0C0; top: 100px; left: 100px;">
-        <div class='chart' id='chart-2'
-            style="width: 960px; height: 500px; position: relative; background-color: #C0C0C0; overflow:scroll; top: 10px; left: 10px;">
+    <div id='Div1'>
+        <div class='chart' id='chart-2'>
         </div>
     </div>
-    <div id='Div2'
-          style="padding: 10px; width: 980px; height: 200px; position: absolute; background-color: #C0C0C0; top: 650px; left: 100px; font-family: Arial, Helvetica, sans-serif; font-size: medium; font-weight: normal; font-style: normal; font-variant: normal; color: #000000;">
-        #Text (remember to terminate it with an unique character e.g. &#39;$&#39;)<br/>
-        <input id="Text1" type="text" style="margin-right: 20px" value="ababbaabbbababbaabababbaabbbababbaa$"
-            maxlength="500" xml:lang="en-us" /><button id="build-tree" onclick="createSuffixTree()">Build Suffix Tree</button>
+    <div id='Div2'>
+        <label for="Text1"></label>
+        <input id="Text1" type="text" placeholder="your string ending in termination character(e.g. $)" maxlength="500" xml:lang="en-us" />
+        <button id="build-tree" onclick="createSuffixTree()">Build Suffix Tree</button>
         <br/>
     </div>
   </body>
