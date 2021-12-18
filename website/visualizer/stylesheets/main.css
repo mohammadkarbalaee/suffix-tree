@@ -1,0 +1,42 @@
+.node circle {
+    cursor: pointer;
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font-size: 11px;
+}
+
+path.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+chart {
+    background: #AAA;
+    border: solid 1px #ddd;
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    font: 10px sans-serif;
+    height: 500px;
+    position: relative;
+    width: 960px;
+}
+
+svg {
+    background-color: #FFF;
+    cursor: default;
+    overflow-x: auto;
+    overflow-y: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#Text1 {
+    width: 796px;
+}
