@@ -59,7 +59,7 @@ svg {
     font-size: medium;
     font-weight: normal;
     font-style: normal;
-    border-radius: 10px;
+    border-radius: 25px;
     font-variant: normal;
     color: #000000;
 }
@@ -93,16 +93,15 @@ svg {
     position: relative;
     background-color: #C0C0C0;
     overflow:scroll;
-    border-radius: 15px;
     margin-left: 25%;
     margin-right: 5%;
 }
 
 #Text1{
-    width: 60%;
+    width: 70%;
     margin-top: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     border-radius: 100px;
 }
 
