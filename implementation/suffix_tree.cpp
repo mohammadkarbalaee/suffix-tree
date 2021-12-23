@@ -39,11 +39,15 @@ void setSuffixIndexByDFS(Node *n, int labelHeight);
 void freeSuffixTreeByPostOrder(Node *n);
 void buildSuffixTree();
 
+using namespace std;
+
 int main(int argc, char *argv[])
 {
-	strcpy(text, "DSA"); 
+	printf("what is your string?\n");
+	scanf("%s",text);
+	printf("---------\n");
 	buildSuffixTree();
-	printf("Quantity of nodes %d\n",count);
+	printf("--------------\nTotal number of nodes %d\n",count);
 	return 0;
 }
 
